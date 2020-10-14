@@ -1,0 +1,30 @@
+header img {
+    width: 10%;
+    float: left;
+}
+header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid black 2px;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    border: solid black 1px;
+    font-display: 100%;
+    
+}
+ul li {
+    display: inline;
+    background-color: cornsilk;
+    
+}
+header{
+    position : fixed;
+    font-size: 100%;
+}
+.section1{
+    height: 200px;
+    width: 1000px;
+}
