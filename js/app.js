@@ -101,3 +101,20 @@ function generateRandomNumber(min, max) {
   random = Math.floor(random);
   return random;
 }
+var myForm = document.getElementById('creatingOpjects');
+myForm.addEventListener('submit',function(event)
+{
+  event.preventDefault();
+  var name = event.target.nameOfProject.value;
+  var max = event.target.maximum.value;
+  var min = event.target.minimum.value;
+  var avg = event.target.avgCPC.value;
+  var city =new Cities(name,max,min,avg);
+  console.log(city);
+  getRandomCustomerPerHours ();
+  getcookies_purchased_Hour();
+  render();
+  generateRandomNumber(min,max); 
+}
+)
+console.log(myForm);
